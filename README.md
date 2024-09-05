@@ -1,18 +1,40 @@
-## Getting Started
+# Interface Gráfica de História da Grécia Antiga e Comidas Típicas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição do Projeto
 
-## Folder Structure
+Este projeto Java implementa uma interface gráfica que oferece uma experiência educativa e cultural. A interface apresenta um campo dedicado à história da Grécia Antiga, com informações detalhadas sobre aspectos importantes dessa civilização, e um painel separado para exibir três comidas típicas da Grécia: **Gyros**, **Moussaka** e **Spanakopita**.
 
-The workspace contains two folders by default, where:
+## Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **História da Grécia Antiga:** Um campo de texto que exibe uma breve história sobre a Grécia Antiga, destacando fatos históricos, cultura e influências.
+- **Comidas Típicas:** Um painel dedicado a três pratos tradicionais da Grécia, com uma breve descrição de cada um:
+  - **Gyros:** Sanduíche grego com carne, vegetais e molho tzatziki.
+  - **Moussaka:** Prato de camadas de berinjela, carne moída e molho béchamel.
+  - **Spanakopita:** Torta folhada recheada com espinafre e queijo feta.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Tecnologias Utilizadas
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- **Java Swing**: Para a criação da interface gráfica.
+- **Java AWT**: Para a manipulação de componentes gráficos.
+- **JDK 11**: Versão do Java utilizada no desenvolvimento do projeto.
 
-## Dependency Management
+## Como Executar o Projeto
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Clone este repositório: `git clone https://github.com/Vilelajlr/Trabalho-JavaPOO.git`
+2. Importe o projeto em sua IDE de preferência (Eclipse, IntelliJ, etc.).
+3. Execute o arquivo principal (`Main.java`) para iniciar a interface gráfica.
+
+## Capturas de Tela
+
+![Interface Principal do Projeto](projetopooimg1.png)
+![Interface Spanakopita do Projeto](projetopooimg2.png)
+![Interface História do Projeto](projetopooimg3.png)
+![Interface Sobre do Projeto](projetopooimg4.png)
+
+## Autor
+
+Desenvolvido por **José Leandro Vilela**.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
